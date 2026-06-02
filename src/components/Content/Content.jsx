@@ -53,11 +53,11 @@ const Content = () => (
                         </div>
                         <span>Github</span>
                     </a>
-                    <a className="button" href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600">
+                    <a className="button" href="https://t.me/MOH_TAN" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600">
                         <div className="icon">
-                            <i className="fab fa-instagram"></i>
+                            <i className="fab fa-telegram"></i>
                         </div>
-                        <span>Instagram</span>
+                        <span>Telegram</span>
                     </a>
                     <a className="button" href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800">
                         <div className="icon">
