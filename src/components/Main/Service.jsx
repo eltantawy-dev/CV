@@ -107,9 +107,9 @@ const Service = () => (
             </div>
         </div>
         <div className='portafolio-btn'>
-            <Link to="/service">
+           {/* <Link to="/service">
                 <ButtomGet/>
-            </Link>
+            </Link>*/}
         </div>
     </section>
 );

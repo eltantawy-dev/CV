@@ -6,7 +6,6 @@ import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-import cv from '../../cv/cv.pdf';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -42,7 +41,7 @@ const About = () => {
             <div className="sobre-mi-img-container">
               <img src={imgabout} alt="" className="sobre-mi-img" />
               
-              <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
+              <a href={"https://raw.githubusercontent.com/eltantawy-dev/CV/main/cv.pdf"} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
                   <FormattedMessage
                       id='btn-cv'
                       defaultMessage='Download CV'
@@ -53,7 +52,7 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id='about-info-1'
-                  defaultMessage="Hi, I'm Esteban Mohamed Eltantawy, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
+                  defaultMessage="Hi, I'm Mohamed Eltantawy, a software developer and university student passionate about web development and technology. I enjoy building websites and web applications, learning new technologies, and turning ideas into practical solutions. Through continuous learning and hands-on projects, I strive to improve my skills and grow as a professional developer."
                 />
               </p>
 
@@ -89,7 +88,7 @@ const About = () => {
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-1'
-                    defaultMessage='More than a year of professional experience in this language, allows me to perform without problems in the industry.'
+                    defaultMessage='I use HTML to create structured web pages as part of my web development learning and projects.'
                   />
                 </p>
               </div>
@@ -99,7 +98,7 @@ const About = () => {
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-2'
-                    defaultMessage='More than a year of work experience in this language, I use it daily to develop web designs and interfaces.'
+                    defaultMessage='I use CSS to design responsive and visually appealing user interfaces while practicing modern layout techniques.'
                   />
                 </p>
               </div>
@@ -109,70 +108,104 @@ const About = () => {
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-3'
-                    defaultMessage='A year of experience using it in the front-end and back-end branch, allowed me to familiarize myself with the language, and include it in my work projects.'
+                    defaultMessage='I use JavaScript to add interactivity to web pages and improve my understanding through practice and projects.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="Sass" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" title="Sass" />
-                <h2 className="skill-name">Sass</h2>
+                <img alt="React" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" />
+                <h2 className="skill-name">React</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-4'
-                    defaultMessage='One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code.'
+                    defaultMessage='I use React to build user interfaces and continue learning component-based development through personal projects.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-down" data-aos-delay="300">
-                <img alt="Bootstrap" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" />
-                <h2 className="skill-name">Bootstrap</h2>
+                <img alt="NextJS" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" title="NextJS" />
+                <h2 className="skill-name">NextJS</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-5'
-                    defaultMessage='Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.'
+                    defaultMessage='I use Next.JS in my learning projects to understand modern web development and routing concepts.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="jQuery" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" title="jQuery" />
-                <h2 className="skill-name">jQuery</h2>
+                <img alt="django" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" title="django" />
+                <h2 className="skill-name">django</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-6'
-                    defaultMessage='A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most.'
+                    defaultMessage='I use Django to build web applications and develop backend systems using Python.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
-                <img alt="react" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="jQuery" />
-                <h2 className="skill-name">ReactJs</h2>
+                <img alt="flask" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" title="flask" />
+                <h2 className="skill-name">flask</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-7'
-                    defaultMessage='More than a year using this JavaScript framework, carrying out multiple personal and work projects.'
+                    defaultMessage='I use Flask to build lightweight web applications and REST APIs using Python.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <img alt="nodejs" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="jQuery" />
-                <h2 className="skill-name">NodeJs</h2>
+                <img alt="MySQL" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="jQuery" />
+                <h2 className="skill-name">MySQL</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-8'
-                    defaultMessage='It is the cross-platform runtime environment that I use to make my web applications scalable.'
+                    defaultMessage='I use MySQL to design and manage relational databases and handle structured data.'
                   />
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="jQuery" />
-                <h2 className="skill-name">Express</h2>
+                <img alt="mongodb" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" title="mongodb" />
+                <h2 className="skill-name">MondoDB</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id='about-skills-9'
-                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                    defaultMessage='I use MongoDB to work with NoSQL databases and manage flexible data structures.'
                   />
                 </p>
               </div>
+
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="tailwindcss" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" title="tailwindcss" />
+                <h2 className="skill-name">tailwindCSS</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-10'
+                    defaultMessage='I use Tailwind CSS to build modern and responsive user interfaces efficiently.'
+                  />
+                </p>
+              </div>
+
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="github" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" title="github" />
+                <h2 className="skill-name">github</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-11'
+                    defaultMessage='I use GitHub to manage my projects, track changes, and improve my workflow using version control.'
+                  />
+                </p>
+              </div>
+
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="wordpress" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" title="wordpress" />
+                <h2 className="skill-name">wordpress</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-12'
+                    defaultMessage='I use WordPress to build and manage simple websites and understand CMS-based development.'
+                  />
+                </p>
+              </div>
+
             </div>
           </div>
         </section>

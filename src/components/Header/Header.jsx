@@ -70,8 +70,8 @@ const Header = () => {
                     />
                 </Link>
                 <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://Eltantawy.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://Eltantawy.github.io/Portafoliovirtual/img/es.png" alt="España" />
+                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://eltantawy-dev.github.io/CV/img/en.png" alt="EEUU" />
+                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://eltantawy-dev.github.io/CV/img/ar.png" alt="España" />
                 </div>
             </nav>
             <div className="switch" id="switch">

@@ -53,7 +53,7 @@ const Project = () => {
                 >
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-app-18.png`)}
+                            src={proyectImg(`./proyecto-app-1.jpg`)}
                             alt='proyectos'
 
                         />
@@ -73,12 +73,12 @@ const Project = () => {
                                 <span> -</span> MongoDB
                             </p>
                             <a href="https://coin-plus.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/Nahuel61920/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-14.jpg`)}
+                            src={proyectImg(`./proyecto-1.jpg`)}
                             alt='proyectos'
 
                         />
@@ -94,13 +94,13 @@ const Project = () => {
                                 <span> -</span> jQuery
                                 <span> -</span> Bootstrap
                             </p>
-                            <a href="https://Eltantawy.github.io/Justice/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://nahuel61920.github.io/Justice/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/Nahuel61920/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-app-17.png`)}
+                            src={proyectImg(`./proyecto-app-2.jpg`)}
                             alt='proyectos'
 
                         />
@@ -119,71 +119,15 @@ const Project = () => {
                                 <span> -</span> PostgreSQL
                             </p>
                             <a href="https://pi-dogs-main-ashy.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/PI-DOGS-MAIN" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://github.com/Nahuel61920/PI-DOGS-MAIN" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
+                   
+                    
+                    
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-7.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Power Engine</h3>
-                            <p>
-                                Automobiles Website
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Eltantawy.github.io/Power-Engine/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/Power-Engine" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-6.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Spider-Man fan page</h3>
-                            <p>
-                                Fan page Spider-Man
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
-                            </p>
-                            <a href="https://Eltantawy.github.io/Spider-Man/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/Spider-Man" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-12.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>EveryRunnig</h3>
-                            <p>
-                                Website shoes
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
-                            </p>
-                            <a href="https://Eltantawy.github.io/EveryRunning/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/EveryRunning" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-5.jpg`)}
+                            src={proyectImg(`./proyecto-2.jpg`)}
                             alt='proyectos'
                         />
                         <div className="content">
@@ -197,87 +141,13 @@ const Project = () => {
                                 <span> -</span> JavaScript
                                 <span> -</span> Sass
                             </p>
-                            <a href="https://Eltantawy.github.io/PremierFood/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/PremierFood" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://nahuel61920.github.io/PremierFood/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/Nahuel61920/PremierFood" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-8.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>ShopTec</h3>
-                            <p>
-                                Ecommerce
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> Sass
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Eltantawy.github.io/shop-tec/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/shop-tec" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-10.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Elegant Hand</h3>
-                            <p>
-                                Watch Shop
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Eltantawy.github.io/ElegantHand/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/ElegantHand" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-9.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Vida en papel</h3>
-                            <p>
-                                Bookstore
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Eltantawy.github.io/vida-en-papel/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/vida-en-papel" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-11.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Plus Anime</h3>
-                            <p>
-                                Anime website
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://Eltantawy.github.io/PlusAnime/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Eltantawy/PlusAnime" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
+                    
+                  
+                    
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
@@ -286,12 +156,12 @@ const Project = () => {
                     id='btn-more-projects'
                     defaultMessage='More projects'
                 />
-            </Link> */}
+            </Link>
             <div className='portafolio-btn'>
                 <Link to="/project">
                     <ButtomGet/>
                 </Link>
-            </div>
+            </div> */}
         </section>
 
     )

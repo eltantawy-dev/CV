@@ -22,10 +22,10 @@ const Footer = () =>{
                     <p>&copy; {fecha}. All Rights Reserved.</p>
                 </div>
                 <div className="redes-sociales">
-                    <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Eltantawy/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/eltantawy-dev/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/eltantawy-dev/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="https://t.me/ELTDev/" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=201559258815" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </footer>
