@@ -69,10 +69,10 @@ const Header = () => {
                         defaultMessage='Contact'
                     />
                 </Link>
-                <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://eltantawy-dev.github.io/CV/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://eltantawy-dev.github.io/CV/img/ar.png" alt="España" />
-                </div>
+                {/*<div id="buttons">
+                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gb.svg" alt="ENG" />
+                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sa.svg" alt="AR" />
+                </div>*/}
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

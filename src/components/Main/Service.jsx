@@ -15,93 +15,99 @@ const Service = () => (
             />
         </h2>
         <div className="row">
+            
             <div className="columns" data-aos="fade-up" data-aos-delay="200">
-                <i className="fas fa-drafting-compass"></i>
+                <i className="fas fa-code"></i>
                 <h3>
                     <FormattedMessage
                         id='design'
-                        defaultMessage='ADesign UX/UIboult me'
+                        defaultMessage='Full-Stack Web Development'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='design-info'
-                        defaultMessage='Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website'
+                        defaultMessage='Building complete web applications using modern front-end and back-end technologies, with responsive designs and efficient database integration.'
                     />
                 </p>
             </div>
+
             <div className="columns" data-aos="fade-up" data-aos-delay="300">
-                <i className="fas fa-laptop"></i>
+                <i class="fas fa-globe"></i>
                 <h3>
                     <FormattedMessage
                         id='development'
-                        defaultMessage='Web development'
+                        defaultMessage='WordPress Website Development'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='development-info'
-                        defaultMessage='Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.'
+                        defaultMessage='Creating and managing WordPress websites, customizing themes and plugins, and building professional websites for different purposes.'
                     />
                 </p>
             </div>
+
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
-                <i className="fas fa-chart-line"></i>
+                <i class="fab fa-telegram-plane"></i>
                 <h3>
                     <FormattedMessage
                         id='marketing'
-                        defaultMessage='Digital marketing'
+                        defaultMessage='Telegram Bot Development'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='marketing-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        defaultMessage='Developing Telegram bots using Python to automate tasks, manage content, interact with users, and integrate with external services and databases.'
                     />
                 </p>
             </div>
+
             <div className="columns" data-aos="fade-up" data-aos-delay="500">
-                <i className="fas fa-wrench"></i>
+                <i class="fas fa-store"></i>
                 <h3>
                     <FormattedMessage
                         id='maintenance'
-                        defaultMessage='Web maintenance'
+                        defaultMessage='E-Commerce Store Management'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='maintenance-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        defaultMessage='Creating, managing, and maintaining online stores, including product management, content updates, and store configuration.'
                     />
                 </p>
             </div>
+
             <div className="columns" data-aos="fade-up" data-aos-delay="600">
-                <i className="fas fa-search"></i>
+                <i class="fas fa-laptop-code"></i>
                 <h3>
                     <FormattedMessage
                         id='seo'
-                        defaultMessage='Web positioning (SEO)'
+                        defaultMessage='Computer & Office Skills'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='seo-info'
-                        defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
+                        defaultMessage='Proficient in data entry, Microsoft Office applications, internet research, file management, and everyday computer operations.'
                     />
                 </p>
             </div>
+
             <div className="columns" data-aos="fade-up" data-aos-delay="700">
-                <i className="fas fa-tachometer-alt"></i>
+                <i class="fas fa-exclamation"></i>
                 <h3>
                     <FormattedMessage
                         id='optimization'
-                        defaultMessage='Website optimization'
+                        defaultMessage='Technical Problem Solving'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='optimization-info'
-                        defaultMessage='Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website'
+                        defaultMessage='Troubleshooting software issues, learning new technologies, improving workflows, and finding practical solutions to technical challenges.'
                     />
                 </p>
             </div>

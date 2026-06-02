@@ -61,10 +61,10 @@ const HeaderPage = () => {
                         defaultMessage='Projects'
                     />
                 </NavLink>
-                <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://Eltantawy.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://Eltantawy.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div>
+                {/*<div id="buttons">
+                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/gb.svg" alt="ENG" />
+                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/sa.svg" alt="AR" />
+                </div>*/}
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

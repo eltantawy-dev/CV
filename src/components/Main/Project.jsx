@@ -58,24 +58,23 @@ const Project = () => {
 
                         />
                         <div className="content">
-                            <h3>CoinPlus</h3>
+                            <h3>Ihyea</h3>
                             <p>
-                                Trading platform for cryptocurrencies
+                                Website for Scheduling Quran Recitation Sessions
                             </p>
                             <p className="tecnologias">
                                 React
+                                <span> -</span> Django
+                                <span> -</span> HTML
                                 <span> -</span> CSS
-                                <span> -</span> Redux
-                                <span> -</span> Bootstrap
-                                <span> -</span> TypeScript
-                                <span> -</span> Solidity
-                                <span> -</span> NodeJS
-                                <span> -</span> MongoDB
+                                <span> -</span> JavaScript
                             </p>
-                            <a href="https://coin-plus.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <Link to="/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>More</span></Link>
+                            <a href="https://github.com/eltantawy-dev/ihyea" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
+
+
                     <SwiperSlide className='caja'>
                         <img
                             src={proyectImg(`./proyecto-1.jpg`)}
