@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import './Header.css';
 
 /* React router */
@@ -9,7 +9,7 @@ import DarkMode from '../DarkMode/DarkMode';
 
 /* Language */
 import { FormattedMessage } from "react-intl";
-import { langContext } from '../../context/Context';
+
 
 const HeaderPage = () => {
     
