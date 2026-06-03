@@ -14,8 +14,7 @@ import { FormattedMessage } from "react-intl";
 import { langContext } from '../../context/Context';
 
 const Header = () => {
-    // Buttom language
-    const idioma = useContext(langContext);
+    
     // Menu desplegable
     const menuDesplegable = () => {
         let navbar = document.querySelector('.navbar');

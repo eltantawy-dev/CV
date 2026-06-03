@@ -63,29 +63,29 @@ function ProjectApp() {
                 <section className="projects__grid apps">
                     
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal5(!estadoModal5)}>
+                        <button onClick={() => cambiarEstadoModal5(!estadoModal5)}>
                             <img src={proyectsImgApp(`./proyecto-app-5.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal4(!estadoModal4)}>
+                        <button onClick={() => cambiarEstadoModal4(!estadoModal4)}>
                             <img src={proyectsImgApp(`./proyecto-app-4.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
+                        <button onClick={() => cambiarEstadoModal3(!estadoModal3)}>
                             <img src={proyectsImgApp(`./proyecto-app-3.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal2(!estadoModal2)}>
+                        <button onClick={() => cambiarEstadoModal2(!estadoModal2)}>
                             <img src={proyectsImgApp(`./proyecto-app-2.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal1(!estadoModal1)}>
+                        <button onClick={() => cambiarEstadoModal1(!estadoModal1)}>
                             <img src={proyectsImgApp(`./proyecto-app-1.jpg`)} alt="" className="projects__img" />
-                        </a>
+                        </button>
                     </div>
                 </section>
             </main>
