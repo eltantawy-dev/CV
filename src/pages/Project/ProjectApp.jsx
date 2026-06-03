@@ -21,19 +21,6 @@ import { FormattedMessage } from 'react-intl';
 const proyectsImgApp = require.context('../../img', true);
 
 function ProjectApp() {
-    const [estadoModal18, cambiarEstadoModal18] = useState(false);
-    const [estadoModal17, cambiarEstadoModal17] = useState(false);
-    const [estadoModal16, cambiarEstadoModal16] = useState(false);
-    const [estadoModal15, cambiarEstadoModal15] = useState(false);
-    const [estadoModal14, cambiarEstadoModal14] = useState(false);
-    const [estadoModal13, cambiarEstadoModal13] = useState(false);
-    const [estadoModal12, cambiarEstadoModal12] = useState(false);
-    const [estadoModal11, cambiarEstadoModal11] = useState(false);
-    const [estadoModal10, cambiarEstadoModal10] = useState(false);
-    const [estadoModal9, cambiarEstadoModal9] = useState(false);
-    const [estadoModal8, cambiarEstadoModal8] = useState(false);
-    const [estadoModal7, cambiarEstadoModal7] = useState(false);
-    const [estadoModal6, cambiarEstadoModal6] = useState(false);
     const [estadoModal5, cambiarEstadoModal5] = useState(false);
     const [estadoModal4, cambiarEstadoModal4] = useState(false);
     const [estadoModal3, cambiarEstadoModal3] = useState(false);
@@ -124,7 +111,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://Eltantawy.github.io/Tweets/" target="_blank">https://Eltantawy.github.io/Tweets/</a>
+                                <span>Link:</span> <a href="https://Eltantawy.github.io/Tweets/" target="_blank" rel="noopener noreferrer">https://Eltantawy.github.io/Tweets/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -165,7 +152,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://Eltantawy.github.io/Buscador-de-autos" target="_blank">https://Eltantawy.github.io/Buscador-de-autos</a>
+                                <span>Link:</span> <a href="https://Eltantawy.github.io/Buscador-de-autos" target="_blank" rel="noopener noreferrer">https://Eltantawy.github.io/Buscador-de-autos</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -206,7 +193,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://Eltantawy.github.io/FormularioJs-Clasico/" target="_blank">https://Eltantawy.github.io/formularioJs-clasico/</a>
+                                <span>Link:</span> <a href="https://Eltantawy.github.io/FormularioJs-Clasico/" target="_blank" rel="noopener noreferrer">https://Eltantawy.github.io/formularioJs-clasico/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -247,7 +234,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://Eltantawy.github.io/To-do-list/" target="_blank">https://Eltantawy.github.io/to-do-list/</a>
+                                <span>Link:</span> <a href="https://Eltantawy.github.io/To-do-list/" target="_blank" rel="noopener noreferrer">https://Eltantawy.github.io/to-do-list/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -288,7 +275,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://Eltantawy.github.io/Calcular-gastos-de-viaje/" target="_blank">https://Eltantawy.github.io/calcular-gastos-de-viaje/</a>
+                                <span>Link:</span> <a href="https://Eltantawy.github.io/Calcular-gastos-de-viaje/" target="_blank" rel="noopener noreferrer">https://Eltantawy.github.io/calcular-gastos-de-viaje/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
