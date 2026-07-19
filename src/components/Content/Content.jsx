@@ -2,7 +2,7 @@ import React from 'react';
 import './Content.css';
 import ParticleHeaderBg from '../ParticlesBg/ParticlesHeader/ParticleHeaderBg';
 
-/* ReactScroll */
+
 import { Link } from 'react-scroll';
 
 /* Multi idioma */
